@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router,} from 'react-router-dom';
-import Contact from './Contact';
 import Tables from './Tables';
+
 
 function About() {
 return (
@@ -13,7 +13,7 @@ return (
             </div>
             <Tables/>
             <Tables/>
-            <Contact/>
+            
         </div>
     </Router>
 </>
