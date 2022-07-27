@@ -181,6 +181,19 @@ body .contact .side-1 h2 {
 body .contact .side-1 p {
   font-size: 1rem;
 }
+body .contact .side-2 {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+body .contact .side-2 .link {
+  text-decoration: none;
+  color: #00FFFF;
+  padding-left: 1rem;
+}
+body .contact .side-2 .link i {
+  padding-left: 0.4rem;
+}
 @-webkit-keyframes rotation {
   from {
     transform: rotate(0deg);

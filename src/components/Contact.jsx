@@ -16,10 +16,10 @@ return (
                 </div>
             </div>
             <div className="side-2">
-                <Link to="/">
+                <Link to="/" className='link'>
                 Instagram <i class="fa-brands fa-instagram"></i>
                 </Link>
-                <Link to="/">
+                <Link to="/" className='link'>
                 Facebook <i class="fa-brands fa-facebook"></i>
                 </Link>
             </div>
