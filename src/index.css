@@ -161,6 +161,26 @@ body .customer .servicerender .systemanalys p {
   padding: 0.9rem 0 0;
   font-size: 1rem;
 }
+body .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 3rem;
+  border-top: 0.3rem solid #00FFFF;
+}
+body .contact .side-1 {
+  font-family: "Poppins", sans-serif;
+}
+body .contact .side-1 h2 {
+  color: #00FFFF;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 0 0 0.7rem;
+}
+body .contact .side-1 p {
+  font-size: 1rem;
+}
 @-webkit-keyframes rotation {
   from {
     transform: rotate(0deg);
