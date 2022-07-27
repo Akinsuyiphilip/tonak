@@ -99,58 +99,111 @@ body {
         background-color: black;
         padding: 4rem 0;
         color: #00FFFF;
+
         .header {
             display: block;
             text-align: center;
             font: 1.3rem 'Poppins', sans-serif;
             padding: 2rem 1rem 7rem;
         }
-        .tables{
+
+        .tables {
             display: flex;
             align-items: center;
             text-align: center;
             padding-bottom: 4rem;
+            font: 1rem 'PT Sans Narrow', sans-serif;
 
-            .firtable{
+            .firtable {
                 border-right: .2rem solid #00FFFF;
-                img{
+
+                img {
                     height: 8rem;
                 }
-                .text-1{
+
+                .text-1 {
                     padding: 2rem;
-                    h2{
+
+                    h2 {
                         text-align: center;
                         padding: 0 0 1.2rem;
                     }
-                    p{
+
+                    p {
                         text-align: left;
-                        padding:0  6rem;
+                        padding: 0 6rem;
                     }
                 }
             }
-            .second-2{
-                img{
+
+            .second-2 {
+                img {
                     height: 8rem;
                 }
-                .text-1{
+
+                .text-1 {
                     padding: 2rem;
-                    h2{
+
+                    h2 {
                         text-align: center;
                         padding: 0 0 1.2rem;
                     }
-                    p{
+
+                    p {
                         text-align: left;
-                        padding:0  6rem;
+                        padding: 0 6rem;
                     }
                 }
             }
         }
     }
-    .contact{
-        .rowt{
+
+    .customer {
+        background: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+
+        .service {
+            padding: 2rem;
             display: flex;
-            flex-direction: column;
-            margin: 2rem;
+            justify-content: center;
+
+            h2 {
+                font-size: 2rem;
+                background: white;
+                background-position: center;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .servicerender {
+
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem 8rem 0;
+            padding: 0 0 4rem;
+
+            .projects,
+            .softwaredev,
+            .systemanalys {
+              
+                img {
+                    height: 10rem;
+                    width: auto;
+                    padding: 0 1rem 1rem;
+                    border-right: .2rem solid #00FFFF;
+                    border-bottom: .2rem solid #00FFFF;
+                }
+                p{
+                    color: white ;
+                    padding: .9rem 0 0;
+                    font-size: 1rem;
+                }
+            }
         }
     }
 

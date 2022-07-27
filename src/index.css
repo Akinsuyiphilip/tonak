@@ -86,6 +86,7 @@ body .about .tables {
   align-items: center;
   text-align: center;
   padding-bottom: 4rem;
+  font: 1rem "PT Sans Narrow", sans-serif;
 }
 body .about .tables .firtable {
   border-right: 0.2rem solid #00FFFF;
@@ -117,6 +118,48 @@ body .about .tables .second-2 .text-1 h2 {
 body .about .tables .second-2 .text-1 p {
   text-align: left;
   padding: 0 6rem;
+}
+body .customer {
+  background: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+body .customer .service {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+body .customer .service h2 {
+  font-size: 2rem;
+  background: white;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .customer .servicerender {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 8rem 0;
+  padding: 0 0 4rem;
+}
+body .customer .servicerender .projects img,
+body .customer .servicerender .softwaredev img,
+body .customer .servicerender .systemanalys img {
+  height: 10rem;
+  width: auto;
+  padding: 0 1rem 1rem;
+  border-right: 0.2rem solid #00FFFF;
+  border-bottom: 0.2rem solid #00FFFF;
+}
+body .customer .servicerender .projects p,
+body .customer .servicerender .softwaredev p,
+body .customer .servicerender .systemanalys p {
+  color: white;
+  padding: 0.9rem 0 0;
+  font-size: 1rem;
 }
 @-webkit-keyframes rotation {
   from {
