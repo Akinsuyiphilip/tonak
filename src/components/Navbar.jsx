@@ -5,7 +5,7 @@ function Navbar() {
 return (
 <>
     <Router>
-        <div className="alo">
+        <div>
             <div className='navmain'>
                 <div className="side">
                     <h2 className="logo">Tonak</h2>

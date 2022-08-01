@@ -5,81 +5,102 @@
   cursor: cell;
 }
 
+:root {
+  --bg-color: #008080;
+  --text-color: #12adc2;
+  --normal: black;
+  --white: #fff;
+}
+
 body {
   background: black;
-  background: url(./components/images/Cyan-Backgrounds-For-Desktop.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
-body .alo .navmain {
+body .navmain {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 1rem 3rem 0;
-  border-bottom: 0.09rem solid #00FFFF;
+  border-bottom: 0.09rem solid rgba(223, 120, 120, 0.863);
+  padding-top: 2rem;
 }
-body .alo .navmain .side h2 {
+body .navmain .side h2 {
   padding: 0 2rem;
   font: 2.3rem "Poppins", sans-serif;
-  color: #00FFFF;
+  color: white;
   cursor: none;
 }
-body .alo .navmain .links {
+body .navmain .links {
   padding-right: 8rem;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
-body .alo .navmain .links ul .link {
+body .navmain .links ul .link {
   text-decoration: none;
   padding: 1rem;
   margin-right: 1.2rem;
   font: 1rem "PT Sans Narrow", sans-serif;
-  color: #00FFFF;
+  color: var(--text-color);
   cursor: cell;
 }
-body .homepage {
+body .navmain .links ul .link:hover {
+  color: #fff;
+}
+body .alo {
+  display: flex;
+  flex-direction: row;
+}
+body .alo .homepage {
   margin: 5rem 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
-body .homepage .homeimage i {
-  color: #00FFFF;
-  font-size: 6rem;
+body .alo .homepage .homeimage {
+  display: flex;
+  flex-direction: row;
+  padding-top: 9rem;
+}
+body .alo .homepage .homeimage i {
+  color: var(--white);
+  font-size: 2rem;
   padding: 1rem;
   -webkit-animation: rotation 10s infinite linear;
           animation: rotation 10s infinite linear;
 }
-body .homepage .hometext {
+body .alo .homepage .hometext {
   margin: 2rem;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
 }
-body .homepage .hometext h2 {
+body .alo .homepage .hometext h2 {
   font: 3rem "PT Sans Narrow", sans-serif;
-  color: white;
+  color: var(--text-color);
 }
-body .homepage .hometext p {
+body .alo .homepage .hometext p {
   font: 1.2rem "Poppins", sans-serif;
   color: white;
-  padding: 0.5rem 5rem;
+  padding: 2rem 15rem 4rem 0;
+}
+body .alo img {
+  height: 40rem;
+  padding-top: 12rem;
 }
 body .about {
   background-color: black;
   padding: 4rem 0;
-  color: #00FFFF;
 }
 body .about .header {
   display: block;
   text-align: center;
   font: 1.3rem "Poppins", sans-serif;
   padding: 2rem 1rem 7rem;
+  color: rgba(223, 120, 120, 0.863);
 }
 body .about .tables {
   display: flex;
@@ -89,7 +110,7 @@ body .about .tables {
   font: 1rem "PT Sans Narrow", sans-serif;
 }
 body .about .tables .firtable {
-  border-right: 0.2rem solid #00FFFF;
+  border-right: 0.2rem solid rgba(223, 120, 120, 0.863);
 }
 body .about .tables .firtable img {
   height: 8rem;
@@ -99,11 +120,13 @@ body .about .tables .firtable .text-1 {
 }
 body .about .tables .firtable .text-1 h2 {
   text-align: center;
+  color: rgba(223, 120, 120, 0.863);
   padding: 0 0 1.2rem;
 }
 body .about .tables .firtable .text-1 p {
   text-align: left;
   padding: 0 6rem;
+  color: white;
 }
 body .about .tables .second-2 img {
   height: 8rem;
@@ -114,10 +137,12 @@ body .about .tables .second-2 .text-1 {
 body .about .tables .second-2 .text-1 h2 {
   text-align: center;
   padding: 0 0 1.2rem;
+  color: rgba(223, 120, 120, 0.863);
 }
 body .about .tables .second-2 .text-1 p {
   text-align: left;
   padding: 0 6rem;
+  color: white;
 }
 body .customer {
   background: black;
@@ -167,7 +192,7 @@ body .contact {
   justify-content: space-between;
   background-color: white;
   padding: 3rem;
-  border-top: 0.3rem solid #00FFFF;
+  border-top: 0.3rem solid rgba(223, 120, 120, 0.863);
 }
 body .contact .side-1 {
   font-family: "Poppins", sans-serif;
@@ -184,15 +209,32 @@ body .contact .side-1 p {
 body .contact .side-2 {
   font-family: "Poppins", sans-serif;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
 }
 body .contact .side-2 .link {
   text-decoration: none;
   color: #00FFFF;
-  padding-left: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 0.2rem solid #00f7ff;
+  border-radius: 1rem;
 }
 body .contact .side-2 .link i {
   padding-left: 0.4rem;
+}
+body .contact .side-2 .link:hover {
+  color: #000000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 0.2rem solid rgba(223, 120, 120, 0.863);
+  border-radius: 1rem;
+}
+body .contact .side-3 {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 @-webkit-keyframes rotation {
   from {

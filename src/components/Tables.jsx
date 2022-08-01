@@ -1,12 +1,13 @@
 import React from 'react';
 import firstable from './images/Firstable.jpg';
+import future from './images/future.jpg'
 
 function Tables() {
   return (
     <>
         <div className="tables">
                 <div className='firtable'>
-                    <img src={ firstable} alt="firtpic" />
+                    <img src={ future} alt="future" />
                     <div className="text-1">
                         <h2>We are Connecting the world together</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has

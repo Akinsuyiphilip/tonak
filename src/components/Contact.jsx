@@ -25,7 +25,7 @@ return (
             </div>
             <div className="side-3">
                 <div className="sendmail">
-                    <Sendmailto label="Send us a mail" mailto="mailto:philipakinbolade@gmail.com" />
+                    <Sendmailto  className="link" label="Send us a mail" mailto="mailto:philipakinbolade@gmail.com" />
                 </div>
             </div>
 
