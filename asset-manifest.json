@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/tonak/static/css/main.b249c69d.css",
+    "main.js": "/tonak/static/js/main.bc042a1e.js",
+    "static/media/analysis.jpg": "/tonak/static/media/analysis.9cbb5cb0116cc12b6664.jpg",
+    "static/media/future.jpg": "/tonak/static/media/future.de69fe981c897eddc182.jpg",
+    "static/media/Firstable.jpg": "/tonak/static/media/Firstable.fd007d02fdade48d5b5b.jpg",
+    "static/media/projectman.jpg": "/tonak/static/media/projectman.1a75704d089fe83fa5a5.jpg",
+    "static/media/black.jpg": "/tonak/static/media/black.52c39da3a68d30a350dd.jpg",
+    "static/media/softwaredev.jpg": "/tonak/static/media/softwaredev.255f74acbbecf4ef5ec8.jpg",
+    "index.html": "/tonak/index.html",
+    "main.b249c69d.css.map": "/tonak/static/css/main.b249c69d.css.map",
+    "main.bc042a1e.js.map": "/tonak/static/js/main.bc042a1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b249c69d.css",
+    "static/js/main.bc042a1e.js"
+  ]
+}
